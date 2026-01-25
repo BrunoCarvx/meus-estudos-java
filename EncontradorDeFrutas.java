@@ -8,7 +8,7 @@ public class EncontradorDeFrutas{
         String[] frutas = {"Banana", "Uva", "Maçã", "Pêra", "Abacaxi"};
         boolean encontrei = false;
 
-        System.out.print("Diga uma fruta para eu ver se eu tenho (digite corretamente): ");
+        System.out.print("Diga uma fruta para eu ver se tenho. (digite corretamente): ");
         String frutaDigitada = leitor.nextLine();
 
         leitor.close();
@@ -28,3 +28,4 @@ public class EncontradorDeFrutas{
         }
     }
 }
+
